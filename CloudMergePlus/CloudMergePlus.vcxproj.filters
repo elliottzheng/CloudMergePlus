@@ -13,5 +13,288 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="CC">
+      <UniqueIdentifier>{5c2e7773-a9dd-4986-8a3a-b4c38b4ab1ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="源.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\AutoSegmentationTools.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\CCMiscTools.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\CCShareable.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\ChamferDistanceTransform.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\ChunkedPointCloud.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\CloudSamplingTools.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\Delaunay2dMesh.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\DgmOctree.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\DgmOctreeReferenceCloud.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\DistanceComputationTools.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\ErrorFunction.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\FastMarching.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\FastMarchingForPropagation.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\GeometricalAnalysisTools.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\KdTree.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\LocalModel.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\ManualSegmentationTools.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\MeshSamplingTools.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\Neighbourhood.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\NormalDistribution.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\NormalizedProgress.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\PointProjectionTools.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\Polyline.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\ReferenceCloud.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\RegistrationTools.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\SaitoSquaredDistanceTransform.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\ScalarField.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\ScalarFieldTools.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\SimpleCloud.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\StatisticalTestingTools.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\TrueKdTree.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\WeibullDistribution.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="CC\SimpleMesh.cpp">
+      <Filter>CC</Filter>
+    </ClCompile>
+    <ClCompile Include="MyReadpcd.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyReadpcd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CC\AutoSegmentationTools.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\CCConst.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\CCCoreLib.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\CCGeom.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\CCMiscTools.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\CCPlatform.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\CCShareable.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\CCToolbox.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\CCTypes.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\ChamferDistanceTransform.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\Chi2Helper.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\ChunkedPointCloud.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\CloudSamplingTools.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\ConjugateGradient.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\Delaunay2dMesh.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\DgmOctree.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\DgmOctreeReferenceCloud.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\DistanceComputationTools.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\ErrorFunction.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\FastMarching.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\FastMarchingForPropagation.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\Garbage.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\GenericChunkedArray.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\GenericCloud.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\GenericDistribution.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\GenericIndexedCloud.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\GenericIndexedCloudPersist.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\GenericMesh.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\GenericOctree.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\GenericProgressCallback.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\GenericTriangle.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\GeometricalAnalysisTools.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\Grid3D.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\Jacobi.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\KdTree.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\LocalModel.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\ManualSegmentationTools.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\MathTools.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\MeshSamplingTools.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\Neighbourhood.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\NormalDistribution.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\PointProjectionTools.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\Polyline.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\RayAndBox.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\ReferenceCloud.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\RegistrationTools.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\SaitoSquaredDistanceTransform.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\ScalarField.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\ScalarFieldTools.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\SimpleCloud.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\SortAlgo.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\SquareMatrix.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\StatisticalTestingTools.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\TrueKdTree.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\WeibullDistribution.h">
+      <Filter>CC</Filter>
+    </ClInclude>
+    <ClInclude Include="CC\SimpleMesh.h">
+      <Filter>CC</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

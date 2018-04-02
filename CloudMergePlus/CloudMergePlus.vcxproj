@@ -64,12 +64,15 @@
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="MYPCLDEBUG.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\Users\18350\Source\Repos\CloudMergePlus\CloudMergePlus\CC;$(IncludePath)</IncludePath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -84,6 +87,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -115,6 +119,100 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CC\AutoSegmentationTools.cpp" />
+    <ClCompile Include="CC\CCMiscTools.cpp" />
+    <ClCompile Include="CC\CCShareable.cpp" />
+    <ClCompile Include="CC\ChamferDistanceTransform.cpp" />
+    <ClCompile Include="CC\ChunkedPointCloud.cpp" />
+    <ClCompile Include="CC\CloudSamplingTools.cpp" />
+    <ClCompile Include="CC\Delaunay2dMesh.cpp" />
+    <ClCompile Include="CC\DgmOctree.cpp" />
+    <ClCompile Include="CC\DgmOctreeReferenceCloud.cpp" />
+    <ClCompile Include="CC\DistanceComputationTools.cpp" />
+    <ClCompile Include="CC\ErrorFunction.cpp" />
+    <ClCompile Include="CC\FastMarching.cpp" />
+    <ClCompile Include="CC\FastMarchingForPropagation.cpp" />
+    <ClCompile Include="CC\GeometricalAnalysisTools.cpp" />
+    <ClCompile Include="CC\KdTree.cpp" />
+    <ClCompile Include="CC\LocalModel.cpp" />
+    <ClCompile Include="CC\ManualSegmentationTools.cpp" />
+    <ClCompile Include="CC\MeshSamplingTools.cpp" />
+    <ClCompile Include="CC\Neighbourhood.cpp" />
+    <ClCompile Include="CC\NormalDistribution.cpp" />
+    <ClCompile Include="CC\NormalizedProgress.cpp" />
+    <ClCompile Include="CC\PointProjectionTools.cpp" />
+    <ClCompile Include="CC\Polyline.cpp" />
+    <ClCompile Include="CC\ReferenceCloud.cpp" />
+    <ClCompile Include="CC\RegistrationTools.cpp" />
+    <ClCompile Include="CC\SaitoSquaredDistanceTransform.cpp" />
+    <ClCompile Include="CC\ScalarField.cpp" />
+    <ClCompile Include="CC\ScalarFieldTools.cpp" />
+    <ClCompile Include="CC\SimpleCloud.cpp" />
+    <ClCompile Include="CC\SimpleMesh.cpp" />
+    <ClCompile Include="CC\StatisticalTestingTools.cpp" />
+    <ClCompile Include="CC\TrueKdTree.cpp" />
+    <ClCompile Include="CC\WeibullDistribution.cpp" />
+    <ClCompile Include="MyReadpcd.cpp" />
+    <ClCompile Include="MyReadpcd.h" />
+    <ClCompile Include="源.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CC\AutoSegmentationTools.h" />
+    <ClInclude Include="CC\CCConst.h" />
+    <ClInclude Include="CC\CCCoreLib.h" />
+    <ClInclude Include="CC\CCGeom.h" />
+    <ClInclude Include="CC\CCMiscTools.h" />
+    <ClInclude Include="CC\CCPlatform.h" />
+    <ClInclude Include="CC\CCShareable.h" />
+    <ClInclude Include="CC\CCToolbox.h" />
+    <ClInclude Include="CC\CCTypes.h" />
+    <ClInclude Include="CC\ChamferDistanceTransform.h" />
+    <ClInclude Include="CC\Chi2Helper.h" />
+    <ClInclude Include="CC\ChunkedPointCloud.h" />
+    <ClInclude Include="CC\CloudSamplingTools.h" />
+    <ClInclude Include="CC\ConjugateGradient.h" />
+    <ClInclude Include="CC\Delaunay2dMesh.h" />
+    <ClInclude Include="CC\DgmOctree.h" />
+    <ClInclude Include="CC\DgmOctreeReferenceCloud.h" />
+    <ClInclude Include="CC\DistanceComputationTools.h" />
+    <ClInclude Include="CC\ErrorFunction.h" />
+    <ClInclude Include="CC\FastMarching.h" />
+    <ClInclude Include="CC\FastMarchingForPropagation.h" />
+    <ClInclude Include="CC\Garbage.h" />
+    <ClInclude Include="CC\GenericChunkedArray.h" />
+    <ClInclude Include="CC\GenericCloud.h" />
+    <ClInclude Include="CC\GenericDistribution.h" />
+    <ClInclude Include="CC\GenericIndexedCloud.h" />
+    <ClInclude Include="CC\GenericIndexedCloudPersist.h" />
+    <ClInclude Include="CC\GenericMesh.h" />
+    <ClInclude Include="CC\GenericOctree.h" />
+    <ClInclude Include="CC\GenericProgressCallback.h" />
+    <ClInclude Include="CC\GenericTriangle.h" />
+    <ClInclude Include="CC\GeometricalAnalysisTools.h" />
+    <ClInclude Include="CC\Grid3D.h" />
+    <ClInclude Include="CC\Jacobi.h" />
+    <ClInclude Include="CC\KdTree.h" />
+    <ClInclude Include="CC\LocalModel.h" />
+    <ClInclude Include="CC\ManualSegmentationTools.h" />
+    <ClInclude Include="CC\MathTools.h" />
+    <ClInclude Include="CC\MeshSamplingTools.h" />
+    <ClInclude Include="CC\Neighbourhood.h" />
+    <ClInclude Include="CC\NormalDistribution.h" />
+    <ClInclude Include="CC\PointProjectionTools.h" />
+    <ClInclude Include="CC\Polyline.h" />
+    <ClInclude Include="CC\RayAndBox.h" />
+    <ClInclude Include="CC\ReferenceCloud.h" />
+    <ClInclude Include="CC\RegistrationTools.h" />
+    <ClInclude Include="CC\SaitoSquaredDistanceTransform.h" />
+    <ClInclude Include="CC\ScalarField.h" />
+    <ClInclude Include="CC\ScalarFieldTools.h" />
+    <ClInclude Include="CC\SimpleCloud.h" />
+    <ClInclude Include="CC\SimpleMesh.h" />
+    <ClInclude Include="CC\SortAlgo.h" />
+    <ClInclude Include="CC\SquareMatrix.h" />
+    <ClInclude Include="CC\StatisticalTestingTools.h" />
+    <ClInclude Include="CC\TrueKdTree.h" />
+    <ClInclude Include="CC\WeibullDistribution.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
