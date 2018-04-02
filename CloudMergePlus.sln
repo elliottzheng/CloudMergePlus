@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CloudMergePlus", "CloudMergePlus\CloudMergePlus.vcxproj", "{3B1D3B4B-49CB-4AD7-BA80-EAD39A960DCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B1D3B4B-49CB-4AD7-BA80-EAD39A960DCF}.Debug|x64.ActiveCfg = Debug|x64
+		{3B1D3B4B-49CB-4AD7-BA80-EAD39A960DCF}.Debug|x64.Build.0 = Debug|x64
+		{3B1D3B4B-49CB-4AD7-BA80-EAD39A960DCF}.Debug|x86.ActiveCfg = Debug|Win32
+		{3B1D3B4B-49CB-4AD7-BA80-EAD39A960DCF}.Debug|x86.Build.0 = Debug|Win32
+		{3B1D3B4B-49CB-4AD7-BA80-EAD39A960DCF}.Release|x64.ActiveCfg = Release|x64
+		{3B1D3B4B-49CB-4AD7-BA80-EAD39A960DCF}.Release|x64.Build.0 = Release|x64
+		{3B1D3B4B-49CB-4AD7-BA80-EAD39A960DCF}.Release|x86.ActiveCfg = Release|Win32
+		{3B1D3B4B-49CB-4AD7-BA80-EAD39A960DCF}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13FF5D6C-0782-4AAD-8333-09E670F92AB7}
+	EndGlobalSection
+EndGlobal
